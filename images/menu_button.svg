@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Garden Gnome Software - Skin Buttons -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="32px" height="32px" viewBox="-3566 -2606 32 32" enable-background="new -3566 -2606 32 32"
+	 xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="Ebene_1">
+</g>
+<g id="Layer_2">
+	<g>
+		<g>
+
+				<circle opacity="0.4" fill="none" stroke="#000000" stroke-width="1.5"  a:adobe-blending-mode="multiply" cx="-3559.333" cy="-2590.376" r="2.76"/>
+			<circle fill="#FFFFFF" cx="-3559.333" cy="-2590.376" r="2.76"/>
+			<circle fill="none" stroke="#000000" stroke-width="0.2" cx="-3559.333" cy="-2590.376" r="2.76"/>
+		</g>
+		<g>
+
+				<circle opacity="0.4" fill="none" stroke="#000000" stroke-width="1.5"  a:adobe-blending-mode="multiply" cx="-3540.667" cy="-2590.376" r="2.76"/>
+			<circle fill="#FFFFFF" cx="-3540.667" cy="-2590.376" r="2.76"/>
+			<circle fill="none" stroke="#000000" stroke-width="0.2" cx="-3540.667" cy="-2590.376" r="2.76"/>
+		</g>
+	</g>
+	<g>
+
+			<circle opacity="0.4" fill="none" stroke="#000000" stroke-width="1.5"  a:adobe-blending-mode="multiply" cx="-3550" cy="-2590.376" r="2.76"/>
+		<circle fill="#FFFFFF" cx="-3550" cy="-2590.376" r="2.76"/>
+		<circle fill="none" stroke="#000000" stroke-width="0.2" cx="-3550" cy="-2590.376" r="2.76"/>
+	</g>
+</g>
+</svg>
