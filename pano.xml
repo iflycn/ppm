@@ -1,745 +1,942 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="15983" start="node28" appversion="5.2.2">
+<tour start="node28" apprev="15983" appversion="5.2.2">
   <panorama id="node28" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="9" tilt="0" fov="70" projection="4"/>
-      <flyin pan="-171" tilt="-90" fov="360" projection="12"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="8.4"/>
+      <flyin projection="12" fov="360" tilt="-90" pan="-171"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="" datetime="" info="" latitude="" title="全景故宫" description="460+全景图片展现数字故宫" copyright="Palace museum" author="https://github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="8.53" tilt="4.69" title="开始游览" id="Point01" description="" url="{node16}" skinid="ht_node" target="-90.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="全景故宫" latitude="" tags="" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" url="{node16}" target="-90.0/0.0/70.0" title="开始游览">
+        <vertex tilt="2.26" pan="20.11"/>
+        <vertex tilt="-2.45" pan="20.11"/>
+        <vertex tilt="-2.44" pan="-3.04"/>
+        <vertex tilt="2.26" pan="-3.04"/>
+      </polyhotspot>
     </hotspots>
-    <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <media>
+      <image width="510" id="Element01" rotx="0.000" rotz="0.000" stretch="1.000" clickmode="0" height="114" handcursor="0" fov="22.620" tilt="-0.090" pan="8.620" roty="0.000">
+        <source url="media/enter.png"/>
+      </image>
+      <image width="1375" id="Element02" rotx="0.000" rotz="0.000" stretch="1.000" clickmode="0" height="135" handcursor="0" fov="30.000" tilt="-5.000" pan="8.600" roty="0.000">
+        <source url="media/tite.png"/>
+      </image>
+    </media>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node16" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-90" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="-90"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="101-端门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-89.9" tilt="0.19" title="午门" id="Point01" description="" url="{node25}" skinid="ht_node" target="131.9/0.1/70.0"/>
-      <hotspot pan="-89.9" tilt="19.77" title="" id="Point02" description="" url="{node17}" skinid="ht_node" target="23.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="101-端门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node25}" target="131.9/0.1/70.0" title="午门" tilt="0.19" pan="-89.9"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node17}" target="23.0/0.0/70.0" title="" tilt="19.77" pan="-89.9"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node17" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="23" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="23"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="101-端门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-157.98" tilt="-23.55" title="" id="Point01" description="" url="{node16}" skinid="ht_node" target="90.0/0.0/70.0"/>
-      <hotspot pan="27.94" tilt="11.27" title="" id="Point02" description="" url="{node18}" skinid="ht_node" target="-107.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="101-端门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node16}" target="90.0/0.0/70.0" title="" tilt="-23.55" pan="-157.98"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node18}" target="-107.0/0.0/70.0" title="" tilt="11.27" pan="27.94"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node18" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-107" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="-107"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="101-端门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="74" tilt="-0.11" title="" id="Point01" description="" url="{node17}" skinid="ht_node" target="-158.0/0.0/70.0"/>
-      <hotspot pan="-109.5" tilt="-18.11" title="" id="Point02" description="" url="{node19}" skinid="ht_node" target="-51.0/0.0/70.0"/>
-      <hotspot pan="150.32" tilt="-6.61" title="" id="Point03" description="" url="{node24}" skinid="ht_node" target="6.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="101-端门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node17}" target="-158.0/0.0/70.0" title="" tilt="-0.11" pan="74"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node19}" target="-51.0/0.0/70.0" title="" tilt="-18.11" pan="-109.5"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node24}" target="6.0/0.0/70.0" title="" tilt="-6.61" pan="150.32"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node19" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-51" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="-51"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="101-端门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-47.48" tilt="-13.25" title="" id="Point01" description="" url="{node20}" skinid="ht_node" target="135.0/0.0/70.0"/>
-      <hotspot pan="122.3" tilt="-18.45" title="" id="Point02" description="" url="{node18}" skinid="ht_node" target="72.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="101-端门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node20}" target="135.0/0.0/70.0" title="" tilt="-13.25" pan="-47.48"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node18}" target="72.0/0.0/70.0" title="" tilt="-18.45" pan="122.3"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node20" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-46" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="-46"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="101-端门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-54.26" tilt="-8.24" title="" id="Point01" description="" url="{node19}" skinid="ht_node" target="129.0/0.0/70.0"/>
-      <hotspot pan="144.21" tilt="-9.06" title="" id="Point02" description="" url="{node21}" skinid="ht_node" target="16.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="101-端门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node19}" target="129.0/0.0/70.0" title="" tilt="-8.24" pan="-54.26"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node21}" target="16.0/0.0/70.0" title="" tilt="-9.06" pan="144.21"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node21" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-163" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="-163"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="101-端门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-175.13" tilt="-11.96" title="" id="Point01" description="" url="{node20}" skinid="ht_node" target="-47.0/0.0/70.0"/>
-      <hotspot pan="19.27" tilt="-19.75" title="" id="Point02" description="" url="{node22}" skinid="ht_node" target="170.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="101-端门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node20}" target="-47.0/0.0/70.0" title="" tilt="-11.96" pan="-175.13"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node22}" target="170.0/0.0/70.0" title="" tilt="-19.75" pan="19.27"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node22" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-99" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="-99"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="101-端门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="92.67" tilt="-15.34" title="" id="Point01" description="" url="{node23}" skinid="ht_node" target="-155.0/0.0/70.0"/>
-      <hotspot pan="-8.34" tilt="-17.2" title="" id="Point02" description="" url="{node21}" skinid="ht_node" target="-165.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="101-端门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node23}" target="-155.0/0.0/70.0" title="" tilt="-15.34" pan="92.67"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node21}" target="-165.0/0.0/70.0" title="" tilt="-17.2" pan="-8.34"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node23" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="26" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="26"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="101-端门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="35.44" tilt="-13.86" title="" id="Point01" description="" url="{node22}" skinid="ht_node" target="-99.0/0.0/70.0"/>
-      <hotspot pan="-167.02" tilt="-16.03" title="" id="Point02" description="" url="{node24}" skinid="ht_node" target="-175.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="101-端门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node22}" target="-99.0/0.0/70.0" title="" tilt="-13.86" pan="35.44"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node24}" target="-175.0/0.0/70.0" title="" tilt="-16.03" pan="-167.02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node24" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="6" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="6"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="101-端门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-169.58" tilt="-9.47" title="" id="Point01" description="" url="{node18}" skinid="ht_node" target="-19.0/0.0/70.0"/>
-      <hotspot pan="37.68" tilt="-20.76" title="" id="Point02" description="" url="{node23}" skinid="ht_node" target="26.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="101-端门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node18}" target="-19.0/0.0/70.0" title="" tilt="-9.47" pan="-169.58"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node23}" target="26.0/0.0/70.0" title="" tilt="-20.76" pan="37.68"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node25" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="131.9" tilt="0.09" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0.09" pan="131.9"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="102-午门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="132" tilt="-1.74" title="" id="Point01" description="" url="{node26}" skinid="ht_node" target="13.9/0.1/70.0"/>
-      <hotspot pan="-34.26" tilt="-0.2" title="端门" id="Point02" description="" url="{node16}" skinid="ht_node" target="90.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="102-午门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node26}" target="13.9/0.1/70.0" title="" tilt="-1.74" pan="132"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node16}" target="90.0/0.0/70.0" title="端门" tilt="-0.2" pan="-34.26"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node26" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="13.9" tilt="0.09" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0.09" pan="13.9"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="102-午门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-2.45" tilt="1.93" title="" id="Point01" description="" url="{node27}" skinid="ht_node" target="-106.1/0.1/70.0"/>
-      <hotspot pan="-1.66" tilt="8.78" title="南宫墙" id="Point02" description="To Be Continued..." url="" skinid="ht_info" target=""/>
-      <hotspot pan="-160.47" tilt="-2.7" title="" id="Point03" description="" url="{node25}" skinid="ht_node" target="-46.1/0.1/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="102-午门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node27}" target="-106.1/0.1/70.0" title="" tilt="1.93" pan="-2.45"/>
+      <hotspot id="Point02" skinid="ht_info" description="To Be Continued..." url="" target="" title="宫墙" tilt="8.78" pan="-1.66"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node25}" target="-46.1/0.1/70.0" title="" tilt="-2.7" pan="-160.47"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node27" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-106.1" tilt="0.09" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0.09" pan="-106.1"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="102-午门" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-106.04" tilt="-5.55" title="太和殿" id="Point01" description="To Be Continued..." url="" skinid="ht_info" target=""/>
-      <hotspot pan="73.83" tilt="-1.63" title="" id="Point02" description="" url="{node26}" skinid="ht_node" target="-164.1/0.1/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="102-午门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node29}" target="173.0/0.0/70.0" title="太和门" tilt="-5.55" pan="-106.04"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node26}" target="-164.1/0.1/70.0" title="" tilt="-1.63" pan="73.83"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
+    </control>
+  </panorama>
+  <panorama id="node29" hideabout="1">
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
+      <preview color="0x000000" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" fov="70" tilt="0" pan="173"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="103-太和门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node30}" target="98.0/0.0/70.0" title="" tilt="-1.91" pan="-128.25"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node27}" target="73.9/0.1/70.0" title="午门" tilt="-5.25" pan="-10.96"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node31}" target="-87.0/0.0/70.0" title="" tilt="-0.37" pan="104.32"/>
+      <hotspot id="Point04" skinid="ht_node" description="" url="{node32}" target="172.0/0.0/70.0" title="" tilt="-1.61" pan="169.12"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
+    </control>
+  </panorama>
+  <panorama id="node30" hideabout="1">
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
+      <preview color="0x000000" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" fov="70" tilt="0" pan="98"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="103-太和门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_info" description="To Be Continued..." url="" target="" title="武英殿" tilt="7.08" pan="96.85"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node29}" target="78.0/0.0/70.0" title="" tilt="-2.68" pan="-114.29"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
+    </control>
+  </panorama>
+  <panorama id="node31" hideabout="1">
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node31/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
+      <preview color="0x000000" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" fov="70" tilt="0" pan="-87"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="103-太和门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_info" description="To Be Continued..." url="" target="" title="内阁" tilt="-3.26" pan="-91.61"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node29}" target="-100.0/0.0/70.0" title="" tilt="-1.7" pan="115.3"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
+    </control>
+  </panorama>
+  <panorama id="node32" hideabout="1">
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node32/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
+      <preview color="0x000000" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" fov="70" tilt="0" pan="172"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="103-太和门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node33}" target="172.0/0.0/70.0" title="" tilt="-4.33" pan="171.04"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node29}" target="-11.0/0.0/70.0" title="" tilt="-7.07" pan="-8.77"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
+    </control>
+  </panorama>
+  <panorama id="node33" hideabout="1">
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node33/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
+      <preview color="0x000000" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" fov="70" tilt="0" pan="172"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="103-太和门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node32}" target="-8.0/0.0/70.0" title="" tilt="-1.15" pan="-8.09"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node34}" target="-3.0/0.0/70.0" title="" tilt="-1.73" pan="-110.17"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node35}" target="-3.0/0.0/70.0" title="" tilt="-1.48" pan="94.71"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
+    </control>
+  </panorama>
+  <panorama id="node34" hideabout="1">
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node34/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
+      <preview color="0x000000" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" fov="70" tilt="0" pan="-3"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="103-太和门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_info" description="To Be Continued..." url="" target="" title="太和殿" tilt="6.32" pan="-2.62"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node33}" target="81.0/0.0/70.0" title="" tilt="-2.09" pan="-105.03"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
+    </control>
+  </panorama>
+  <panorama id="node35" hideabout="1">
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node35/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
+      <preview color="0x000000" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" fov="70" tilt="0" pan="-3"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="103-太和门" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_info" description="To Be Continued..." url="" target="" title="太和殿" tilt="7.56" pan="-2.81"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node33}" target="-97.0/0.0/70.0" title="" tilt="-0.86" pan="104.32"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node14" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="52" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="52"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="52.09" tilt="-8.41" title="" id="Point01" description="" url="{node15}" skinid="ht_node" target="0.0/0.0/70.0"/>
-      <hotspot pan="-100.77" tilt="-0.94" title="武英殿" id="Point02" description="To Be Continued..." url="" skinid="ht_info" target=""/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node15}" target="0.0/0.0/70.0" title="" tilt="-8.41" pan="52.09"/>
+      <hotspot id="Point02" skinid="ht_info" description="To Be Continued..." url="" target="" title="武英殿" tilt="-7.49" pan="-100.79"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node15" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-0.05" tilt="-26.16" title="" id="Point01" description="" url="{node1}" skinid="ht_node" target="-178.0/0.0/70.0"/>
-      <hotspot pan="-179" tilt="-17.8" title="" id="Point02" description="" url="{node14}" skinid="ht_node" target="-89.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node1}" target="-178.0/0.0/70.0" title="" tilt="-26.16" pan="-0.05"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node14}" target="-89.0/0.0/70.0" title="" tilt="-17.8" pan="-179"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node1" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-178" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="-178"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="99.21" tilt="-15.76" title="" id="Point01" description="" url="{node2}" skinid="ht_node" target="90.0/0.0/70.0"/>
-      <hotspot pan="75.19" tilt="-15.06" title="" id="Point02" description="" url="{node4}" skinid="ht_node" target="-90.0/0.0/70.0"/>
-      <hotspot pan="-70.18" tilt="-19.01" title="" id="Point03" description="" url="{node5}" skinid="ht_node" target="97.0/0.0/70.0"/>
-      <hotspot pan="-92.24" tilt="-20.39" title="" id="Point04" description="" url="{node13}" skinid="ht_node" target="-87.0/0.0/70.0"/>
-      <hotspot pan="3.22" tilt="-30.33" title="" id="Point05" description="" url="{node15}" skinid="ht_node" target="-179.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node2}" target="90.0/0.0/70.0" title="" tilt="-15.76" pan="99.21"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node4}" target="-90.0/0.0/70.0" title="" tilt="-15.06" pan="75.19"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node5}" target="97.0/0.0/70.0" title="" tilt="-19.01" pan="-70.18"/>
+      <hotspot id="Point04" skinid="ht_node" description="" url="{node13}" target="-87.0/0.0/70.0" title="" tilt="-20.39" pan="-92.24"/>
+      <hotspot id="Point05" skinid="ht_node" description="" url="{node15}" target="-179.0/0.0/70.0" title="" tilt="-30.33" pan="3.22"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node2" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="179" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="179"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-77.81" tilt="-18.36" title="" id="Point01" description="" url="{node1}" skinid="ht_node" target="-90.0/0.0/70.0"/>
-      <hotspot pan="72.99" tilt="-23.35" title="" id="Point02" description="" url="{node3}" skinid="ht_node" target="-180.0/0.0/70.0"/>
-      <hotspot pan="-5.91" tilt="-31.32" title="" id="Point03" description="" url="{node4}" skinid="ht_node" target="180.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node1}" target="-90.0/0.0/70.0" title="" tilt="-18.36" pan="-77.81"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node3}" target="-180.0/0.0/70.0" title="" tilt="-23.35" pan="72.99"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node4}" target="180.0/0.0/70.0" title="" tilt="-31.32" pan="-5.91"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node3" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="180" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="180"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-26.68" tilt="-24.81" title="" id="Point01" description="" url="{node2}" skinid="ht_node" target="-90.0/0.0/70.0"/>
-      <hotspot pan="28.87" tilt="-25.16" title="" id="Point02" description="" url="{node4}" skinid="ht_node" target="90.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node2}" target="-90.0/0.0/70.0" title="" tilt="-24.81" pan="-26.68"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node4}" target="90.0/0.0/70.0" title="" tilt="-25.16" pan="28.87"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node4" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="178" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="178"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="64.87" tilt="-17.39" title="" id="Point01" description="" url="{node1}" skinid="ht_node" target="-90.0/0.0/70.0"/>
-      <hotspot pan="-66" tilt="-21.02" title="" id="Point03" description="" url="{node3}" skinid="ht_node" target="-180.0/0.0/70.0"/>
-      <hotspot pan="-4" tilt="-26.66" title="" id="Point02" description="" url="{node2}" skinid="ht_node" target="180.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node1}" target="-90.0/0.0/70.0" title="" tilt="-17.39" pan="64.87"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node3}" target="-180.0/0.0/70.0" title="" tilt="-21.02" pan="-66"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node2}" target="180.0/0.0/70.0" title="" tilt="-26.66" pan="-4"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node5" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-174" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="-174"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="101.02" tilt="-17.93" title="" id="Point01" description="" url="{node6}" skinid="ht_node" target="92.0/0.0/70.0"/>
-      <hotspot pan="-64.42" tilt="-18.6" title="" id="Point02" description="" url="{node1}" skinid="ht_node" target="90.0/0.0/70.0"/>
-      <hotspot pan="6.09" tilt="-38.77" title="" id="Point03" description="" url="{node13}" skinid="ht_node" target="-178.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node6}" target="92.0/0.0/70.0" title="" tilt="-17.93" pan="101.02"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node1}" target="90.0/0.0/70.0" title="" tilt="-18.6" pan="-64.42"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node13}" target="-178.0/0.0/70.0" title="" tilt="-38.77" pan="6.09"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node6" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="179" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="179"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="88.34" tilt="-17.61" title="" id="Point01" description="" url="{node7}" skinid="ht_node" target="92.0/0.0/70.0"/>
-      <hotspot pan="-79.99" tilt="-20.61" title="" id="Point02" description="" url="{node5}" skinid="ht_node" target="-87.0/0.0/70.0"/>
-      <hotspot pan="-0.32" tilt="-28.83" title="" id="Point03" description="" url="{node12}" skinid="ht_node" target="-179.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node7}" target="92.0/0.0/70.0" title="" tilt="-17.61" pan="88.34"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node5}" target="-87.0/0.0/70.0" title="" tilt="-20.61" pan="-79.99"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node12}" target="-179.0/0.0/70.0" title="" tilt="-28.83" pan="-0.32"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node7" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="180" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="180"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="88.54" tilt="-20.69" title="" id="Point01" description="" url="{node8}" skinid="ht_node" target="92.0/0.0/70.0"/>
-      <hotspot pan="-88.5" tilt="-18.8" title="" id="Point02" description="" url="{node6}" skinid="ht_node" target="-91.0/0.0/70.0"/>
-      <hotspot pan="0.24" tilt="-28.67" title="" id="Point03" description="" url="{node11}" skinid="ht_node" target="-175.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node8}" target="92.0/0.0/70.0" title="" tilt="-20.69" pan="88.54"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node6}" target="-91.0/0.0/70.0" title="" tilt="-18.8" pan="-88.5"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node11}" target="-175.0/0.0/70.0" title="" tilt="-28.67" pan="0.24"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node8" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="180" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="180"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="75.06" tilt="-17.6" title="" id="Point01" description="" url="{node9}" skinid="ht_node" target="180.0/0.0/70.0"/>
-      <hotspot pan="-87.71" tilt="-18.63" title="" id="Point02" description="" url="{node7}" skinid="ht_node" target="-91.0/0.0/70.0"/>
-      <hotspot pan="-0.21" tilt="-29.08" title="" id="Point03" description="" url="{node10}" skinid="ht_node" target="180.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node9}" target="180.0/0.0/70.0" title="" tilt="-17.6" pan="75.06"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node7}" target="-91.0/0.0/70.0" title="" tilt="-18.63" pan="-87.71"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node10}" target="180.0/0.0/70.0" title="" tilt="-29.08" pan="-0.21"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node9" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="180" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="180"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-20.44" tilt="-17.25" title="" id="Point01" description="" url="{node8}" skinid="ht_node" target="-91.0/0.0/70.0"/>
-      <hotspot pan="10.54" tilt="-17.88" title="" id="Point02" description="" url="{node10}" skinid="ht_node" target="91.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node8}" target="-91.0/0.0/70.0" title="" tilt="-17.25" pan="-20.44"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node10}" target="91.0/0.0/70.0" title="" tilt="-17.88" pan="10.54"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node10" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="180" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="180"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="91.45" tilt="-20.56" title="" id="Point01" description="" url="{node11}" skinid="ht_node" target="95.0/0.0/70.0"/>
-      <hotspot pan="-79.81" tilt="-17.54" title="" id="Point02" description="" url="{node9}" skinid="ht_node" target="180.0/0.0/70.0"/>
-      <hotspot pan="-0.01" tilt="-29.27" title="" id="Point03" description="" url="{node8}" skinid="ht_node" target="180.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node11}" target="95.0/0.0/70.0" title="" tilt="-20.56" pan="91.45"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node9}" target="180.0/0.0/70.0" title="" tilt="-17.54" pan="-79.81"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node8}" target="180.0/0.0/70.0" title="" tilt="-29.27" pan="-0.01"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node11" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-175" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="-175"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-84.62" tilt="-20.25" title="" id="Point01" description="" url="{node10}" skinid="ht_node" target="-89.0/0.0/70.0"/>
-      <hotspot pan="93.16" tilt="-21.99" title="" id="Point02" description="" url="{node12}" skinid="ht_node" target="91.0/0.0/70.0"/>
-      <hotspot pan="6.07" tilt="-28.98" title="" id="Point03" description="" url="{node7}" skinid="ht_node" target="180.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node10}" target="-89.0/0.0/70.0" title="" tilt="-20.25" pan="-84.62"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node12}" target="91.0/0.0/70.0" title="" tilt="-21.99" pan="93.16"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node7}" target="180.0/0.0/70.0" title="" tilt="-28.98" pan="6.07"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node12" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-179" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="-179"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="83.9" tilt="-19.82" title="" id="Point01" description="" url="{node13}" skinid="ht_node" target="92.0/0.0/70.0"/>
-      <hotspot pan="-88.11" tilt="-19.05" title="" id="Point02" description="" url="{node11}" skinid="ht_node" target="-86.0/0.0/70.0"/>
-      <hotspot pan="1.34" tilt="-29.56" title="" id="Point03" description="" url="{node6}" skinid="ht_node" target="179.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node13}" target="92.0/0.0/70.0" title="" tilt="-19.82" pan="83.9"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node11}" target="-86.0/0.0/70.0" title="" tilt="-19.05" pan="-88.11"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node6}" target="179.0/0.0/70.0" title="" tilt="-29.56" pan="1.34"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
   <panorama id="node13" hideabout="1">
-    <input levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2040" levelbias="0.400" width="2040" levelingroll="0" levelingpitch="0" leveltilesize="510">
-      <level predecode="0" height="2040" preload="0" width="2040"/>
-      <level predecode="1" height="510" preload="1" width="510"/>
+    <input width="2040" levelingpitch="0" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" height="2040" levelbiashidpi="0.400" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2040" predecode="0" preload="0" height="2040"/>
+      <level width="510" predecode="1" preload="1" height="510"/>
       <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-178" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fov="5"/>
-      <max pan="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" fovfisheye="360"/>
+      <start projection="4" fov="70" tilt="0" pan="-178"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata tags="307-南大库" datetime="" info="" latitude="" title="" description="460+全景图片展现数字故宫" copyright="Palace museum" author="github.com/iflycn/ppm" source="" comment="" longitude="" customnodeid=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label enabled="0" border="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" height="20" wordwrap="1" width="180" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-91.21" tilt="-19.53" title="" id="Point01" description="" url="{node12}" skinid="ht_node" target="-90.0/0.0/70.0"/>
-      <hotspot pan="89.23" tilt="-20.37" title="" id="Point02" description="" url="{node1}" skinid="ht_node" target="90.0/0.0/70.0"/>
-      <hotspot pan="2.44" tilt="-39.6" title="" id="Point03" description="" url="{node5}" skinid="ht_node" target="-174.0/0.0/70.0"/>
+    <userdata description="460+全景图片展现数字故宫" info="" title="" latitude="" tags="307-南大库" longitude="" datetime="" copyright="Palace museum" comment="" author="github.com/iflycn/ppm" source="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" background="1" borderalpha="1" wordwrap="1" textalpha="1" enabled="0" borderradius="1" bordercolor="0x000000" height="20" textcolor="0x000000" border="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" skinid="ht_node" description="" url="{node12}" target="-90.0/0.0/70.0" title="" tilt="-19.53" pan="-91.21"/>
+      <hotspot id="Point02" skinid="ht_node" description="" url="{node1}" target="90.0/0.0/70.0" title="" tilt="-20.37" pan="89.23"/>
+      <hotspot id="Point03" skinid="ht_node" description="" url="{node5}" target="-174.0/0.0/70.0" title="" tilt="-39.6" pan="2.44"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" blendcolor="0x000000" zoomoutpause="1" zoomout="0" softedge="0" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2"/>
+    <transition zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomin="0"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <control invertcontrol="0" speedwheel="1" rubberband="1" lockedkeyboard="0" contextprojections="0" hideabout="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="1">
-      <menulink text="GitHub" url="https://github.com/iflycn/ppm"/>
+    <control lockedkeyboard="0" sensitivity="8" invertcontrol="0" speedwheel="1" dblclickfullscreen="1" hideabout="1" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="1" lockedwheel="0" invertwheel="1" contextprojections="0">
+      <menulink url="https://github.com/iflycn/ppm" text="GitHub"/>
     </control>
   </panorama>
 </tour>
