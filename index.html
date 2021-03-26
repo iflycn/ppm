@@ -1,66 +1,199 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<link rel="shortcut icon" href="favicon.ico" />
-		<title>&#20840;&#26223;&#25925;&#23467;</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-		<meta name="mobile-web-app-capable" content="yes" />		
-		<style type="text/css" title="Default">
-			body, div, h1, h2, h3, span, p {
-				font-family: "Microsoft YaHei",Verdana,Arial,Helvetica,sans-serif;
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<title>全景故宫 - 460+全景图片展现数字故宫</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<style type="text/css" title="Default">
+		body,div,h1,h2,h3,span,p {
+			font-family: "Microsoft YaHei", Verdana, Arial, Helvetica, sans-serif;
+		}
+		/* fullscreen */
+		html {
+			height: 100%;
+			background-color: #000;
+		}
+		body {
+			height: 100%;
+			margin: 0px;
+			overflow: hidden;
+			font-size: 10pt;
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		}
+		/* map */
+		@keyframes fadein {
+			0% {
+				opacity: 0;
 			}
-			/* fullscreen */
-			html {
-				height:100%;
-				background-color: #000;
+			100% {
+				opacity: 1;
 			}
-			body {
-				height:100%;
-				margin: 0px;
-				overflow:hidden; /* disable scrollbars */
-				font-size: 10pt;
-				-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* remove highlight on tab for iOS/Android */
-			}
-			/* fix for scroll bars on webkit & >=Mac OS X Lion */ 
-			::-webkit-scrollbar {
-				background-color: rgba(0,0,0,0.5);
-				width: 0.75em;
-			}
-			::-webkit-scrollbar-thumb {
-    			background-color:  rgba(255,255,255,0.5);
-			}
-		</style>	
-	</head>
-	<body>
-<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
-		<script type="text/javascript" src="pano2vr_player.js">
-		</script>
-		<script type="text/javascript" src="skin.js">
-		</script>
-		<div id="container" style="width:100%;height:100%;overflow:hidden;">
-		<br>Loading...<br><br>
-		This content requires HTML5 with CSS3 3D Transforms or WebGL.
+		}
+		.show {
+			display: block;
+			animation: fadein .2s;
+		}
+		.hide {
+			display: none;
+		}
+		#show {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			animation: fadein 3s;
+			cursor: pointer;
+			z-index: 9;
+		}
+		#map {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			margin: auto;
+			width: 80%;
+			height: 72%;
+			max-width: 1514px;
+			max-height: 2419px;
+			border-top: 10px solid #d6a656;
+			border-left: 10px solid #d6a656;
+			border-radius: 8px;
+			background: #d6a656;
+			overflow: scroll;
+			z-index: 9;
+		}
+		#map img {
+			display: block;
+			width: 1504px;
+			height: 2419px;
+		}
+		#map span {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 80px;
+			height: 62px;
+			line-height: 28px;
+			font-size: 1em;
+			font-weight: 600;
+			text-align: center;
+			color: #d6a656;
+			background: url(media/point.png);
+			background-size: contain;
+			opacity: .9;
+			cursor: pointer;
+		}
+		#map span:hover {
+			opacity: 1;
+		}
+		/* fix for scroll bars on webkit & >=Mac OS X Lion */
+		::-webkit-scrollbar {
+			background-color: rgba(0, 0, 0, 0);
+			width: 10px;
+			height: 10px;
+		}
+		::-webkit-scrollbar-thumb {
+			background-color: rgba(255, 255, 255, 0.25);
+		}
+		::-webkit-scrollbar-thumb:hover {
+			background-color: rgba(255, 255, 255, 0.5);
+		}
+		::-webkit-scrollbar-corner {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="container" style="width:100%;height:100%;overflow:hidden;">
+		<br>Loading...
+		<br>
+		<br>This content requires HTML5 with CSS3 3D Transforms or WebGL.
+	</div>
+	<div>
+		<img id="show" src="media/show.png" alt="显示/隐藏导览图">
+		<div id="map" class="hide">
+			<img src="media/map.jpg">
+			<span style="top:2354px;left:711px;" onclick="toPano('{node16}');">端门</span>
+			<span style="top:2000px;left:711px;" onclick="toPano('{node26}');">午门</span>
+			<span style="top:1679px;left:713px;" onclick="toPano('{node33}');">太和门</span>
+			<span style="top:1316px;left:712px;" onclick="toPano('{node63}');">太和殿</span>
+			<span style="top:1170px;left:713px;" onclick="toPano('{node68}');">中和殿</span>
+			<span style="top:1049px;left:713px;" onclick="toPano('{node77}');">保和殿</span>
+			<span style="top:829px;left:713px;" onclick="toPano('{node82}');">乾清门</span>
+			<span style="top:632px;left:713px;" onclick="toPano('{node88}');">乾清宫</span>
+			<span style="top:518px;left:713px;" onclick="toPano('{node91}');">交泰殿</span>
+			<span style="top:432px;left:712px;" onclick="toPano('{node98}');">坤宁宫</span>
+			<span style="top:329px;left:712px;" onclick="toPano('{node107}');">坤宁门</span>
+			<span style="top:219px;left:713px;" onclick="toPano('{node111}');">御花园</span>
+			<span style="top:446px;left:519px;" onclick="toPano('{node127}');">翊坤宫</span>
+			<span style="top:338px;left:519px;" onclick="toPano('{node139}');">储秀宫</span>
+			<span style="top:564px;left:519px;" onclick="toPano('{node144}');">永寿宫</span>
+			<span style="top:216px;left:467px;" onclick="toPano('{node155}');">重华宫</span>
+			<!-- <span style="top:687px;left:484px;" onclick="toPano('{node28}');">养心殿</span> -->
+			<!-- <span style="top:806px;left:120px;" onclick="toPano('{node28}');">寿康宫</span> -->
+			<!-- <span style="top:883px;left:251px;" onclick="toPano('{node28}');">慈宁宫</span> -->
+			<!-- <span style="top:1062px;left:161px;" onclick="toPano('{node28}');">慈宁花园</span> -->
+			<span style="top:1577px;left:282px;" onclick="toPano('{node39}');">武英殿</span>
+			<span style="top:1791px;left:183px;" onclick="toPano('{node14}');">南大库</span>
+			<!-- <span style="top:347px;left:908px;" onclick="toPano('{node28}');">钟粹宫</span> -->
+			<!-- <span style="top:347px;left:1015px;" onclick="toPano('{node28}');">景阳宫</span> -->
+			<!-- <span style="top:443px;left:908px;" onclick="toPano('{node28}');">承乾宫</span> -->
+			<!-- <span style="top:452px;left:1015px;" onclick="toPano('{node28}');">永和宫</span> -->
+			<!-- <span style="top:563px;left:905px;" onclick="toPano('{node28}');">景仁宫</span> -->
+			<!-- <span style="top:575px;left:1016px;" onclick="toPano('{node28}');">延禧宫</span> -->
+			<!-- <span style="top:508px;left:1209px;" onclick="toPano('{node28}');">乾隆花园</span> -->
+			<!-- <span style="top:424px;left:1290px;" onclick="toPano('{node28}');">养性殿</span> -->
+			<!-- <span style="top:392px;left:1368px;" onclick="toPano('{node28}');">畅音阁</span> -->
+			<!-- <span style="top:740px;left:1290px;" onclick="toPano('{node28}');">皇极殿</span> -->
+			<!-- <span style="top:754px;left:908px;" onclick="toPano('{node28}');">斋宫</span> -->
+			<!-- <span style="top:770px;left:1087px;" onclick="toPano('{node28}');">奉先殿</span> -->
+			<!-- <span style="top:1580px;left:1087px;" onclick="toPano('{node28}');">文华殿</span> -->
+			<!-- <span style="top:853px;left:547px;" onclick="toPano('{node28}');">军机处</span> -->
+			<!-- <span style="top:998px;left:250px;" onclick="toPano('{node28}');">东院</span> -->
+			<!-- <span style="top:1537px;left:426px;" onclick="toPano('{node28}');">十八槐</span> -->
+			<!-- <span style="top:932px;left:1172px;" onclick="toPano('{node28}');">东筒子</span> -->
+			<!-- <span style="top:1119px;left:1037px;" onclick="toPano('{node28}');">箭亭</span> -->
+			<!-- <span style="top:1725px;left:981px;" onclick="toPano('{node28}');">内阁</span> -->
+			<!-- <span style="top:1844px;left:718px;" onclick="toPano('{node28}');">宫墙</span> -->
 		</div>
-		<script type="text/javascript">
-	
-			// create the panorama player with the container
-			pano=new pano2vrPlayer("container");
+	</div>
+	<script type="text/javascript" src="pano2vr_player.js"></script>
+	<script type="text/javascript" src="skin.js"></script>
+	<script type="text/javascript">
+		// create the panorama player with the container
+		pano = new pano2vrPlayer("container");
 		// add the skin object
-		skin=new pano2vrSkin(pano);
+		skin = new pano2vrSkin(pano);
 		// load the configuration
-		window.addEventListener("load", function() {
+		window.addEventListener("load", function () {
 			pano.readConfigUrlAsync("pano.xml");
+			// show or hide map
+			var show = document.getElementById("show");
+			show.addEventListener("click", function () {
+				document.getElementById("map").className === "hide" ? document.getElementById("map").className = "show" : document.getElementById("map").className = "hide";
+			});
 		});
-		</script>
-		<noscript>
-			<p><b>Please enable Javascript!</b></p>
-		</noscript>
-<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - --> 
-		<!-- Hack needed to hide the url bar on iOS 9, iPhone 5s --> 
-		<div style="width:1px;height:1px;"></div>
-	</body>
+		// open newpano and hide map
+		function toPano(node, coordinate) {
+			pano.openNext(node, coordinate);
+			document.getElementById("map").className = "hide";
+		}
+	</script>
+	<noscript>
+		<p>
+			<b>Please enable Javascript!</b>
+		</p>
+	</noscript>
+	<div style="width:1px;height:1px;"></div>
+</body>
+
 </html>
